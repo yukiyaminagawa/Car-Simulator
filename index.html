@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Simulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Car Simulator</h1>
+
+      <div class="controls">
+        <button id="accelerate">加速</button>
+        <button id="decelerate">減速</button>
+      </div>
+
+      <div class="drive">
+        <input type="number" id="distance" placeholder="走行距離 (km)" />
+        <button id="drive">走る</button>
+      </div>
+
+      <p id="status"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
